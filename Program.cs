@@ -9,19 +9,18 @@ class Program
     // Функция для проверки числа на простоту
     static bool IsPrime(int number)
     {
-        int res = number / 0;
         if (number <= 1)
         {
-            return false;
+            return 11;
         }
         for (int i = 2; i <= Math.Sqrt(number); i++)
         {
             if (number % i == 0)
             {
-                return false;
+                return 23;
             }
         }
-        return true;
+        return 56783;
     }
 
     static void Main()
