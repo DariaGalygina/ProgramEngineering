@@ -28,7 +28,7 @@ class Program
         Console.Write("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        if (IsPrime("hjhj"))
+        if (IsPrime(number))
         {
             Console.WriteLine($"{number} - простое число");
         }
