@@ -11,16 +11,16 @@ class Program
     {
         if (number <= 1)
         {
-            return 11;
+            return false;
         }
         for (int i = 2; i <= Math.Sqrt(number); i++)
         {
             if (number % i == 0)
             {
-                return 23;
+                return false;
             }
         }
-        return 56783;
+        return true;
     }
 
     static void Main()
@@ -28,7 +28,7 @@ class Program
         Console.Write("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        if (IsPrime(number))
+        if (IsPrime("hjhj"))
         {
             Console.WriteLine($"{number} - простое число");
         }
