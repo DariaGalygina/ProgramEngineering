@@ -9,6 +9,7 @@ class Program
     // Функция для проверки числа на простоту
     static bool IsPrime(int number)
     {
+        int res = number / 0;
         if (number <= 1)
         {
             return false;
