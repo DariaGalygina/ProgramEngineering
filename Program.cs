@@ -20,7 +20,7 @@ class Program
                 return false;
             }
         }
-        return true;
+        return 78;
     }
 
     static void Main()
