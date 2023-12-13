@@ -23,7 +23,7 @@ class Program
         return 78;
     }
 
-    static void Main()
+    static void Main
     {
         Console.Write("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
