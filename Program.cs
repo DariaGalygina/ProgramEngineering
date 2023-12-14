@@ -20,10 +20,10 @@ class Program
                 return false;
             }
         }
-        return 78;
+        return true;
     }
 
-    static void Main
+    static void Main()
     {
         Console.Write("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
