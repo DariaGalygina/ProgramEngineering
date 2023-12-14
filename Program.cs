@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Program
+public class Program
 {
     // Функция для проверки числа на простоту
     static bool IsPrime(int number)
@@ -23,7 +23,7 @@ class Program
         return true;
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.Write("Введите число: ");
         int number = Convert.ToInt32(Console.ReadLine());
